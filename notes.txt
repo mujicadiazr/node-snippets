@@ -1,0 +1,13 @@
+For watch files during coding:
+    -supervisor
+    -nodemon
+    
+For debug: 
+    -Install node-inspector and run in a different terminal
+    -Then, run the server with debug flat like this:
+        supervisor --debug server.js 
+
+npm:
+    - npm init : For create a package.json from scratch
+    - npm install blabla -g : For install globaly
+    - npm install blabla --save : For update package.json after installing
